@@ -1,0 +1,116 @@
+.footer {
+  margin: 40px 0;
+}
+
+.socialNetworks {
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.socialNetwork {
+  margin-right: 3%;
+}
+
+.socialNetworkLink {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  text-decoration: none;
+  border: 1px solid darkslategray;
+  height: 40px;
+}
+
+.icon {
+  display: inline-block;
+  background: url("/images/social-network-icons-40px.png") no-repeat;
+  box-sizing: border-box;
+  min-width: 40px;
+  height: 40px;
+}
+
+.icon:not(:only-child) {
+  border-right: 1px solid darkslategray;
+}
+
+.content {
+  padding: 0 20px 4px 10px;
+  white-space: nowrap;
+  color: black;
+}
+
+.TwitterIcon {
+  background-position: -320px 0;
+}
+
+.GoogleIcon {
+  background-position: -120px 0;
+}
+
+.PinterestIcon {
+  background-position: -200px 0;
+}
+
+.SkypeIcon {
+  background-position: -280px 0;
+}
+
+.YoutubeIcon {
+  background-position: -400px 0;
+}
+
+.FacebookIcon {
+  background-position: 0 0;
+}
+
+.VemioIcon {
+  background-position: -360px 0;
+}
+
+.socialNetworkLink:hover {
+  border: 1px solid rgba(119, 136, 153, 0.115);
+  box-shadow: 5px 5px 2px 0px rgba(47, 79, 79, 0.449);
+}
+
+.socialNetworkLink:hover .icon {
+  background-position-y: -40px;
+  border: none;
+}
+
+.socialNetworkLink:active .icon {
+  background-position-y: -80px;
+}
+
+.iconsAuthor {
+  margin-top: 20px;
+}
+
+@media (min-width: 600px) and (max-width: 1185px) {
+  .content {
+    display: none;
+  }
+
+  .icon:not(:only-child) {
+    border: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .socialNetworks {
+    flex-direction: column;
+  }
+
+  .socialNetwork {
+    margin-bottom: 4%;
+  }
+
+  .socialNetworkLink.onGoogle,
+  .socialNetworkLink.onPinterest,
+  .socialNetworkLink.onSkype,
+  .socialNetworkLink.onYoutube {
+    background-color: white;
+  }
+}

@@ -1,0 +1,88 @@
+.darkgoldenrodText {
+  color: rgb(47, 58, 69);
+  font-weight: 600;
+}
+
+.red,
+.darkgoldenrodText:hover,
+a.darkgoldenrodText:hover {
+  color: red;
+}
+
+input:focus {
+  outline: 1px solid black;
+}
+
+.noUnderline {
+  text-decoration-line: none;
+}
+
+.boldText {
+  font-weight: 600;
+}
+
+.sitePageWrapper {
+  background-color: rgba(40, 51, 57, 0.918);
+  height: 100%;
+}
+
+.sitePage {
+  width: 70%;
+  height: 100%;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0 5%;
+  background: white;
+}
+
+.pageBlock {
+  background-color: rgba(119, 136, 153, 0.265);
+  padding: 25px;
+  margin: 40px;
+}
+
+.withShadow {
+  box-shadow: 10px 10px 2px 0px rgba(47, 79, 79, 0.449);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: large;
+}
+
+button {
+  font-weight: normal;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes changeOpacity {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.changeOpacity {
+  -webkit-animation-name: changeOpacity;
+  animation-name: changeOpacity;
+}

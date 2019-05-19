@@ -1,0 +1,10 @@
+[1214/102312.154:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\Olga\AppData\Local\Google\Chrome\User Data\Crashpad\reports\c0c22db9-693f-40e5-b75d-853d7eda42ad.dmp: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом. (0x20)
+[1214/102312.186:ERROR:process_info.cc(359)] UncheckedAllocate
+[1214/102312.194:ERROR:process_info.cc(359)] UncheckedAllocate
+[1224/105527.438:ERROR:process_info.cc(359)] UncheckedAllocate
+[1224/105527.446:ERROR:process_info.cc(359)] UncheckedAllocate
+[1224/105528.953:ERROR:process_info.cc(359)] UncheckedAllocate
+[1224/164037.200:ERROR:process_info.cc(359)] UncheckedAllocate
+[1224/165922.772:ERROR:process_info.cc(359)] UncheckedAllocate
+[1226/185934.805:ERROR:process_info.cc(359)] UncheckedAllocate
+[1226/210910.132:ERROR:process_info.cc(359)] UncheckedAllocate

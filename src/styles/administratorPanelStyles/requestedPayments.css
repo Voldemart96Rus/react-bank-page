@@ -1,0 +1,39 @@
+.requestedPaymentsTable {
+  max-width: 100%;
+}
+
+.requestedPaymentsTableHeader {
+  background-color: rgba(211, 211, 211, 0.531);
+}
+
+.requestedPaymentsTable th,
+.requestedPaymentsTable td {
+  padding: 5px 10px;
+  border: 1px solid lightgray;
+}
+
+.requestedPaymentsTable tr.danger {
+  background-color: rgba(117, 0, 0, 0.258);
+}
+
+.paymentSecureButton {
+  border-radius: 2px;
+  padding: 3px 6px;
+  font-size: 0.6em;
+}
+
+.paymentSecureButton__safe {
+  background-color: rgba(0, 128, 0, 0.245);
+}
+
+.paymentSecureButton__unsafe {
+  background-color: rgba(117, 0, 0, 0.5);
+}
+
+.requestedPaymentsTableHeader input {
+  width: 100%;
+}
+
+input {
+  padding-left: 5px;
+}

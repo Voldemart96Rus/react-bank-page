@@ -1,0 +1,240 @@
+.bankCardPayment form {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 0;
+}
+
+.bankCardPayment .cardData {
+  background: rgba(255, 255, 255, 1);
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(245, 245, 245, 1) 50%,
+    rgba(255, 255, 255, 1) 77%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right bottom,
+    color-stop(0%, rgba(255, 255, 255, 1)),
+    color-stop(50%, rgba(245, 245, 245, 1)),
+    color-stop(77%, rgba(255, 255, 255, 1)),
+    color-stop(100%, rgba(255, 255, 255, 1))
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(245, 245, 245, 1) 50%,
+    rgba(255, 255, 255, 1) 77%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background: -o-linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(245, 245, 245, 1) 50%,
+    rgba(255, 255, 255, 1) 77%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(245, 245, 245, 1) 50%,
+    rgba(255, 255, 255, 1) 77%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(245, 245, 245, 1) 50%,
+    rgba(255, 255, 255, 1) 77%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+  box-sizing: border-box;
+
+  -webkit-box-shadow: 0px 5px 5px 2px rgba(222, 222, 222, 1);
+  -moz-box-shadow: 0px 5px 5px 2px rgba(222, 222, 222, 1);
+  box-shadow: 0px 5px 5px 2px rgba(222, 222, 222, 1);
+
+  max-width: 500px;
+  width: 40%;
+  padding: 2%;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bankCardPayment .row {
+  width: 100%;
+  display: flex;
+}
+
+.bankCardPayment .row.firstRow {
+  flex-direction: column;
+}
+
+.bankCardPayment .cardNumber {
+  width: 80%;
+}
+
+.bankCardPayment .cardDataElement.data {
+  width: 30%;
+  margin-right: 10%;
+}
+
+.bankCardPayment .cvc {
+  width: 25%;
+}
+
+.bankCardPayment .row.cardLabels {
+  justify-content: flex-end;
+}
+
+.bankCardPayment .cardLabel {
+  width: 12%;
+  min-height: 45px;
+  height: 8%;
+  margin: 3%;
+}
+
+.bankCardPayment .cardDataElement {
+  background: none;
+  border: none;
+  text-align: center;
+  margin: 3%;
+  padding: 7px 0;
+}
+
+.bankCardPayment .paymentData {
+  max-width: 500px;
+  width: 55%;
+}
+
+.bankCardPayment .dataList {
+  padding: 2% 2% 0;
+  margin: 2% 0;
+}
+
+.bankCardPayment .dataElement {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bankCardPayment label {
+  box-sizing: border-box;
+  min-width: 40%;
+  padding: 7px 0;
+  padding-right: 15px;
+}
+
+.bankCardPayment .dataElement input {
+  border: none;
+  width: 60%;
+  margin-bottom: 20px;
+  padding: 7px 20px;
+}
+
+.bankCardPayment #comment,
+.bankCardPayment #email,
+.bankCardPayment .cardDataElement {
+  border-bottom: 1px solid lightslategray;
+}
+
+.bankCardPayment .submitButton {
+  background: rgba(69, 84, 89, 1);
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(69, 84, 89, 1) 0%,
+    rgba(0, 18, 23, 1) 50%,
+    rgba(69, 84, 89, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right bottom,
+    color-stop(0%, rgba(69, 84, 89, 1)),
+    color-stop(50%, rgba(0, 18, 23, 1)),
+    color-stop(100%, rgba(69, 84, 89, 1))
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(69, 84, 89, 1) 0%,
+    rgba(0, 18, 23, 1) 50%,
+    rgba(69, 84, 89, 1) 100%
+  );
+  background: -o-linear-gradient(
+    -45deg,
+    rgba(69, 84, 89, 1) 0%,
+    rgba(0, 18, 23, 1) 50%,
+    rgba(69, 84, 89, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    -45deg,
+    rgba(69, 84, 89, 1) 0%,
+    rgba(0, 18, 23, 1) 50%,
+    rgba(69, 84, 89, 1) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(69, 84, 89, 1) 0%,
+    rgba(0, 18, 23, 1) 50%,
+    rgba(69, 84, 89, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#455459', endColorstr='#455459', GradientType=1 );
+  color: white;
+  font-size: larger;
+  text-shadow: 5px solid black;
+  border: 1px solid lightslategrey;
+  padding: 2% 5%;
+  margin-left: 2%;
+}
+
+@media (max-width: 768px) {
+  .bankCardPayment form {
+    flex-direction: column;
+  }
+
+  .bankCardPayment .cardData,
+  .bankCardPayment .paymentData {
+    width: 100%;
+  }
+}
+
+input.error {
+  color: red;
+  caret-color: black;
+}
+
+.errorMessage {
+  color: rgb(130, 0, 0);
+  font-size: 0.75em;
+  display: block;
+}
+
+.firstRow .errorMessage {
+  width: 80%;
+  text-align: center;
+  margin: 0 3%;
+}
+
+.secondRow .errorMessage:first-of-type {
+  width: 30%;
+  margin-right: 10%;
+}
+
+.secondRow .errorMessage:last-of-type {
+  width: 25%;
+}
+
+.secondRow {
+  flex-wrap: wrap;
+}
+
+.errors {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 3%;
+}

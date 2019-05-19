@@ -1,0 +1,40 @@
+.cardPaymentsTable {
+  max-width: 100%;
+}
+
+.cardPaymentsTableHeader {
+  background-color: rgba(211, 211, 211, 0.531);
+}
+
+.cardPaymentsTable th,
+.cardPaymentsTable td {
+  padding: 5px 10px;
+  border: 1px solid lightgray;
+}
+
+.cardPaymentsTable tr.danger {
+  background-color: rgba(61, 0, 0, 0.258);
+}
+
+.paymentSecureButton {
+  border-radius: 2px;
+  padding: 3px 6px;
+}
+
+.paymentSecureButton__safe {
+  background-color: rgba(0, 111, 128, 0.245);
+}
+
+.paymentSecureButton__unsafe {
+  background-color: rgba(117, 0, 0, 0.5);
+}
+
+.cardPaymentsTableHeader input {
+  width: 100%;
+  background: white;
+  border: 1px solid rgb(83, 83, 83);
+}
+
+input {
+  padding-left: 5px;
+}

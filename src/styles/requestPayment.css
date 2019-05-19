@@ -1,0 +1,176 @@
+.requestPayment p {
+  margin: 0;
+  padding: 2% 2% 0;
+  font-weight: 600;
+}
+
+.requestPayment form {
+  display: flex;
+  flex-direction: column;
+  max-width: 650px;
+  padding: 2% 2% 0;
+}
+
+.requestPayment .dataList {
+  padding: 0;
+  margin: 2% 0;
+}
+
+.requestPayment .dataElement {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.requestPayment label {
+  color: darkslategray;
+  padding: 7px 0;
+  box-sizing: border-box;
+  width: 30%;
+  padding-right: 15px;
+  overflow: hidden;
+}
+
+.requestPayment .dataElement input,
+.requestPayment .tax {
+  border: none;
+  box-sizing: border-box;
+  width: 70%;
+  margin-bottom: 20px;
+  padding: 7px 20px;
+}
+
+.requestPayment #sum {
+  width: 30%;
+}
+
+.requestPayment #from,
+.requestPayment #BIC,
+.requestPayment #accountNumber,
+.requestPayment #sum {
+  border-bottom: 1px solid lightslategray;
+}
+
+.requestPayment .tax {
+  border-bottom: 1px solid darkslategray;
+}
+
+.requestPayment .submitButton {
+  background: rgba(69, 84, 89, 1);
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(69, 84, 89, 1) 0%,
+    rgba(0, 18, 23, 1) 50%,
+    rgba(69, 84, 89, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right bottom,
+    color-stop(0%, rgba(69, 84, 89, 1)),
+    color-stop(50%, rgba(0, 18, 23, 1)),
+    color-stop(100%, rgba(69, 84, 89, 1))
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(69, 84, 89, 1) 0%,
+    rgba(0, 18, 23, 1) 50%,
+    rgba(69, 84, 89, 1) 100%
+  );
+  background: -o-linear-gradient(
+    -45deg,
+    rgba(69, 84, 89, 1) 0%,
+    rgba(0, 18, 23, 1) 50%,
+    rgba(69, 84, 89, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    -45deg,
+    rgba(69, 84, 89, 1) 0%,
+    rgba(0, 18, 23, 1) 50%,
+    rgba(69, 84, 89, 1) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(69, 84, 89, 1) 0%,
+    rgba(0, 18, 23, 1) 50%,
+    rgba(69, 84, 89, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#455459', endColorstr='#455459', GradientType=1 );
+  color: white;
+  text-shadow: 5px solid black;
+  border: 1px solid lightslategrey;
+  max-width: 290px;
+  width: fit-content;
+  padding: 2% 5%;
+}
+
+.requestPayment .resetButton {
+  background: none;
+  border: none;
+  width: fit-content;
+  color: black;
+  padding: 10px 20px;
+  margin: 4% 0;
+  background-color: rgba(255, 255, 255, 0.483);
+  box-shadow: 5px 5px 2px 0px rgba(47, 79, 79, 0.649);
+}
+
+.requestPayment .resetButton:hover {
+  background-color: white;
+}
+
+.requestPayment #email,
+.requestPayment #phoneNumber,
+.requestPayment #BIC {
+  margin: 5px 0 15px;
+}
+
+.extraInformationInput {
+  width: 70%;
+}
+
+.extraInformationInput * {
+  display: block;
+}
+
+.extraInformationInput input {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 0 10px;
+}
+
+.extraInformationInput label {
+  box-sizing: border-box;
+  width: 100%;
+  color: gray;
+  font-size: 0.8em;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.requestPayment .extraInformationInput label[for="phoneNumber"] {
+  width: 100%;
+  padding: 0;
+  color: darkslategray;
+}
+
+.requestPayment .errorMessage {
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
+.escape {
+  display: none;
+}
+
+.taxOptions {
+  padding: 0 20px;
+  display: flex;
+}
+
+.taxOptions button {
+  padding-right: 10px;
+  color: rgb(25, 120, 135);
+}
+
+button.taxOption__chosen {
+  color: black;
+}

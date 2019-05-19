@@ -1,0 +1,81 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.customerContacts {
+  width: 100%;
+}
+
+.phoneNumber {
+  color: gray;
+}
+
+.contactsRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact {
+  margin-right: 30px;
+}
+
+.companyRequisites {
+  display: block;
+}
+
+.customerLogoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.customerLogo {
+  max-width: 300px;
+  width: min-content;
+  vertical-align: center;
+}
+
+.aboutCompany {
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.requisitesList {
+  font-size: 0.8em;
+}
+
+.requisiteName {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .customerLogoContainer {
+    width: 80%;
+    align-self: center;
+  }
+
+  .customerLogo {
+    width: 100%;
+  }
+}
+
+.aboutCompanyButton,
+.companyRequisitesButton {
+  font-size: smaller;
+  display: block;
+  margin: 10px 0;
+}
+
+.companyRequisitesButton {
+  margin-top: 25px;
+}
+
+.requisitesHeader {
+  margin-top: 0;
+}
